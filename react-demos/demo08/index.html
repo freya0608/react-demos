@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var LinkButton = React.createClass({
+        getInitialState:function () {
+            return {liked:false};
+        },
+        handleClick:function (event) {
+            this.setState({liked:!this.state.liked});
+        },
+        render:function () {
+            var text = this.state.liked?'like':'haven\'t linked';
+            return (
+                    <p onClick={this.handleClick}>
+                        you {text} this. click to  toggle.
+                    </p>
+            )
+        }
+    });
+    ReactDOM.render(
+           <LinkButton/>,
+            document.getElementById('example')
+    );
+</script>
+</body>
+</html>
