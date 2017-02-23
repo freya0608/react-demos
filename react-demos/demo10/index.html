@@ -8,26 +8,34 @@
 <body>
 <div id="example"></div>
 <script type="text/babel">
-    var Input = React.createClass({
+    var Hello = React.createClass({
         getInitialState:function () {
-            return {value:'Hello'};
+            return {
+                opacity:1.0
+            };
         },
-        handleChange:function (event) {
-            this.setState({value:event.target.value});
+        componentDidMount:function () {
+            this.timer = setInterval(function () {
+                var opacity = this.state.opacity;
+                opacity -=.05;
+                if(opacity){
+                    opacity = 1.0;
+                }
+                this.setState({
+                    opacity:opacity
+                });
+            }.bind(this),100);
         },
         render:function () {
-            var value = this.state.value;
             return(
-                    <div>
-                        <input type="text" value={value}
-                               onchange={this.handleChange}/>
-                        <p>{value}</p>
+                    <div style={{opacity:this.state.opacity}}>
+                        Hello {this.props.name}
                     </div>
             )
         }
     });
     ReactDOM.render(
-           <Input/>,
+           <Hello name="world"/>,
             document.getElementById('example')
     );
 </script>
