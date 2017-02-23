@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="725c2697-cf7a-476a-8058-d9bfc0dd50a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-demo" afterPath="$PROJECT_DIR$/react-demo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/JSXTransformer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/browser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-0.13.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-0.13.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-0.14.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-dom-0.14.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-with-addons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react-with-addons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/build/react.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/demo01/hello.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react-demo" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="react-demos.iws" />
@@ -24,21 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-demo/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hello.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-demo/demo01/hello.html">
+        <entry file="file://$PROJECT_DIR$/react/demo01/hello.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="171">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -61,6 +63,7 @@
       <list>
         <option value="$PROJECT_DIR$/react-demo/hello.html" />
         <option value="$PROJECT_DIR$/react-demo/demo01/hello.html" />
+        <option value="$PROJECT_DIR$/react/demo01/hello.html" />
       </list>
     </option>
   </component>
@@ -118,7 +121,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react-demo" />
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,6 +167,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\web\react-demos\react" />
       <recent name="F:\web\react-demos\react-demo" />
       <recent name="F:\web\react-demos\init" />
       <recent name="F:\web\react-demos\react-demo\demo01" />
@@ -223,7 +245,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487847233170</updated>
       <workItem from="1487847238709" duration="1199000" />
-      <workItem from="1487848792580" duration="1494000" />
+      <workItem from="1487848792580" duration="1881000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1487847712753</created>
@@ -236,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2693000" />
+    <option name="totallyTimeSpent" value="3080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="255" y="58" width="1393" height="931" extended-state="0" />
@@ -280,7 +302,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-demo/demo01/hello.html">
+    <entry file="file://$PROJECT_DIR$/react/demo01/hello.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -288,7 +310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demo/build/react.js">
+    <entry file="file://$PROJECT_DIR$/react/build/react.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
@@ -296,7 +318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demo/build/react.js">
+    <entry file="file://$PROJECT_DIR$/react/build/react.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
@@ -312,10 +334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demo/demo01/hello.html">
+    <entry file="file://$PROJECT_DIR$/react/demo01/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="171">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
